@@ -43,7 +43,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29400
+              "duration": 47900
             }
           }
         ],
@@ -57,7 +57,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 270428700
+              "duration": 247644000
             }
           },
           {
@@ -70,7 +70,7 @@
             "result": {
               "status": "failed",
               "error_message": "\nexpected: 200\n     got: 401\n\n(compared using eql?)\n (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/entao.rb:2:in `\"valido os dados do usuário\"'\nfeatures/specification/login.feature:11:in `Então valido os dados do usuário'",
-              "duration": 41845900
+              "duration": 49476000
             }
           }
         ],
@@ -84,7 +84,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 45800
+              "duration": 72500
             }
           }
         ]
