@@ -1,0 +1,94 @@
+[
+  {
+    "uri": "features/specification/login.feature",
+    "id": "validar-dados-usuário",
+    "keyword": "Funcionalidade",
+    "name": "Validar Dados Usuário",
+    "description": "   Como uma aplicação de ms\n   Eu quero validação dos dados do user logado",
+    "line": 4,
+    "tags": [
+      {
+        "name": "@regressivo",
+        "line": 3
+      }
+    ],
+    "comments": [
+      {
+        "value": "#utf-8",
+        "line": 2
+      }
+    ],
+    "elements": [
+      {
+        "id": "validar-dados-usuário;validar-dados-ok-do-usuário.",
+        "keyword": "Cenário",
+        "name": "Validar dados OK do usuário.",
+        "description": "",
+        "line": 9,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@regressivo",
+            "line": 3
+          },
+          {
+            "name": "@dados_usuario",
+            "line": 8
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29400
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que eu tenha acesso a url da Spotify e solicito os dados do user",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/dado.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 270428700
+            }
+          },
+          {
+            "keyword": "Então ",
+            "name": "valido os dados do usuário",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/entao.rb:1"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "\nexpected: 200\n     got: 401\n\n(compared using eql?)\n (RSpec::Expectations::ExpectationNotMetError)\n./features/step_definitions/entao.rb:2:in `\"valido os dados do usuário\"'\nfeatures/specification/login.feature:11:in `Então valido os dados do usuário'",
+              "duration": 41845900
+            }
+          }
+        ],
+        "after": [
+          {
+            "output": [
+              "[Failed]"
+            ],
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45800
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
