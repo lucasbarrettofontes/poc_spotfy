@@ -1,6 +1,6 @@
 # INTEGRATED_TEST
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. You can use this project like dependence in another project. Create instance in parent directory whit 'require_relative ../../directory'.
+Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. You can use this project like dependence in another project. Create instance in parent directory whit 'require_relative ../../directory'
 
 
 # Installation
